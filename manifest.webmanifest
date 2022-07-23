@@ -1,0 +1,19 @@
+{
+    "short_name": "odontoAgend",
+    "name": "Agenda Odontológica",
+    "start_url": "/",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "WebApp para agendamento Odontológico",
+    "icons": [
+        {
+            "src": "img/LogoAgenda.png",
+            "type": "image/png",
+            "sizes": "540x540"
+        }
+    ]
+}
