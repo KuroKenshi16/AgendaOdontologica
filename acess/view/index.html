@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda Odontológica</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/libs/fontawesome/css/all.css">
     <link rel="shortcut icon" href="./img/LogoAgenda.png" type="image/x-icon">
 </head>
 <body>
@@ -15,55 +16,73 @@
         <div class="content first-content">
              <div class="first-column">
                 <h2 class="title-primary">Bem vindo devolta!</h2>
-                <p class="description">Se mantenha conectado</p>
-                <p class="description">Por favor acesse com suas informações pessoais</p>
+                <p class="description description-primary">Se mantenha conectado</p>
+                <p class="description description-primary">Por favor acesse com suas informações pessoais</p>
                 <button class="btn btn-primary">Entrar</button>
              </div>
              <div class="second-column">
-                <h2 class="title">Crie uma conta</h2>
+                <h2 class="title title-second">Crie uma conta</h2>
                 <div class="social-media">
                     <!--Social media-->
                     <ul class="list-social-media">
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">google+</a></li>
-                        <li><a href="#">linkedin</a></li>
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-facebook"></i></li></a>
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-google"></i></li></a>
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-linkedin"></i></li></a>
                     </ul>
                     <!--End-Social media-->
                 </div>
-                <p class="description">Ou use seu email para se registrar:</p>
+                <p class="description description-second">Ou use seu email para se registrar:</p>
                 <form class="form">
-                    <input type="text" placeholder="Nome">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Senha">
-                    <button class="btn-primary">Cadastrar</button>
+                    <label class="label-input">
+                        <i class="fa-solid fa-user icon-modify"></i>
+                        <input type="text" placeholder="Nome">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa-solid fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                    <button class="btn btn-second">Cadastrar</button>
                 </form>
              </div><!--Second column-->
-        </div><!--End First content-->
+        </div><!--End First content--> 
+
         <!--Second content-->
+
         <div class="second-content">
             <div class="first-column">
-                <h2 class="title">Olá, amigo</h2>
-                <p class="description">Insira seus dados pessoais</p>
-                <p class="description">Inicie sua jornada conosco</p>
-                <button class="btn">Entrar</button>
-             </div>
+                <h2 class="title title-primary">Olá, amigo</h2>
+                <p class="description description-primary">Insira seus dados pessoais</p>
+                <p class="description description-primary">Inicie sua jornada conosco</p>
+                <button class="btn btn-primary">Entrar</button>
+            </div>
              <div class="second-column">
-                <h2 class="title">Acesse sua conta</h2>
+                <h2 class="title title-second">Acesse sua conta</h2>
                 <div class="social-media">
                     <!--Social media-->
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">google+</a></li>
-                        <li><a href="#">linkedin</a></li>
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-facebook"></i></li></a>
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-google"></i></li></a>
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-linkedin"></i></li></a>
                     </ul>
                     <!--End-Social media-->
                 </div>
-                <p class="description">Ou use seu email para acessar:</p>
+                <p class="description description-second">Ou use seu email para acessar:</p>
                 <form class="form">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Senha">
-                    <a href="#">Esqueceu sua senha?</a>
-                    <button class="btn">Acessar</button>
+                    <label class="label-input">
+                        <i class="fa-solid fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label class="label-input">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                    </label>
+
+                    <a class="password" href="">Esqueceu a senha?</a>
+                    <button class="btn btn-second">Cadastrar</button>
                 </form>
              </div><!--Second column-->
         </div>
