@@ -14,6 +14,11 @@ body {
     height: 100vh;
     background-color: #ecf0f1;
 }
+
+.check {
+    flex: 1;  
+}
+
 .content {
     background-color: #fff;
     border-radius: 15px;
@@ -183,8 +188,6 @@ input:-webkit-autofill
 .password::first-letter {
     text-transform: capitalize;
 }
-
-
 
 .sign-in-js .first-content .first-column {
     z-index: -1;

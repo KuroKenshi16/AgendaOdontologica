@@ -22,16 +22,6 @@
              </div>
              <div class="second-column">
                 <h2 class="title title-second">Crie uma conta</h2>
-                <div class="social-media">
-                    <!--Social media-->
-                    <ul class="list-social-media">
-                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-facebook"></i></li></a>
-                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-google"></i></li></a>
-                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-linkedin"></i></li></a>
-                    </ul>
-                    <!--End-Social media-->
-                </div>
-                <p class="description description-second">Ou use seu email para se registrar:</p>
                 <form class="form">
                     <label class="label-input" for="">
                         <i class="fa-solid fa-user icon-modify"></i>
@@ -45,7 +35,14 @@
                         <i class="fa-solid fa-lock icon-modify"></i>
                         <input type="password" placeholder="Senha">
                     </label>
+                    <div id="cro" style="display:none">
+                        <label class="label-input" for="">
+                            <i class="fa-solid fa-tooth icon-modify"></i>
+                            <input type="text" placeholder="CRO" id="inputCro" onkeyup="cro(this)" maxlength="12">
+                        </label>
+                    </div>
                     <button class="btn btn-second">Cadastrar</button>
+                    <input class="check" type="checkbox" id="check" onclick="turnVisible()"><label for="profi">Trabalho na Clinica</label>
                 </form>
              </div><!--Second column-->
         </div><!--End First content--> 
@@ -61,21 +58,13 @@
             </div>
              <div class="second-column">
                 <h2 class="title title-second">Acesse sua conta</h2>
-                <div class="social-media">
-                    <!--Social media-->
-                    <ul class="list-social-media">
-                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-facebook"></i></li></a>
-                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-google"></i></li></a>
-                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fa-brands fa-linkedin"></i></li></a>
-                    </ul>
-                    <!--End-Social media-->
-                </div>
                 <p class="description description-second">Ou use seu email para acessar:</p>
                 <form class="form">
                     <label class="label-input" for="">
                         <i class="fa-solid fa-envelope icon-modify"></i>
                         <input type="email" placeholder="Email">
                     </label>
+
                     <label class="label-input" for="">
                         <i class="fa-solid fa-lock icon-modify"></i>
                         <input type="password" placeholder="Senha">
