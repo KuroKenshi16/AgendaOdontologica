@@ -15,10 +15,6 @@ body {
     background-color: #ecf0f1;
 }
 
-.check {
-    flex: 1;  
-}
-
 .content {
     background-color: #fff;
     border-radius: 15px;
