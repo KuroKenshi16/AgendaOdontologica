@@ -62,11 +62,11 @@
     transition: color 0.3s ease;
 }
 
-.navbar .menu li a :hover {
+.navbar .menu li a:hover {
     color: #059481;
 }
 
-.navbar .sticky .menu li a :hover {
+.navbar .sticky .menu li a:hover {
     color: #fff;
 }
 
@@ -76,8 +76,8 @@
 .home {
     display: flex;
     background: url(img/banner.png) no-repeat center;
+    background-size: cover;
     height: 100vh;
-    color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
