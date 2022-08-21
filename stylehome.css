@@ -20,10 +20,11 @@
     width: 100%;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
+    z-index: 999;
     transition: all 0.3s ease;
 }
 
-.navbar .sticky {
+.navbar.sticky {
     background: #059481;
     padding: 30px 0;
 }
@@ -45,7 +46,7 @@
     transition: all 0.3s ease;
 }
 
-.navbar .sticky .logo a span {
+.navbar.sticky .logo a span {
     color: #fff;
 }
 
@@ -78,6 +79,7 @@
     background: url(img/banner.png) no-repeat center;
     background-size: cover;
     height: 100vh;
+    color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -103,6 +105,7 @@
 
 .home .home-content .text-3 span {
     color: #059481;
+    font-weight: 500;
 }
 
 .home .home-content a {
