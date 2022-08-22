@@ -6,31 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Front</title>
+
     <link rel="stylesheet" href="stylehome.css">
 </head>
 
 <body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
     <div class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">KG<span>Agenda</span></a></div>
             <ul class="menu">
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="#home">Inicio</a>
                 </li>
                 <li>
-                    <a href="#">Sobre</a>
+                    <a href="#about">Sobre</a>
                 </li>
                 <li>
-                    <a href="#">Serviços</a>
+                    <a href="#services">Serviços</a>
                 </li>
                 <li>
-                    <a href="#">Especialidades</a>
+                    <a href="#skills">Especialidades</a>
                 </li>
                 <li>
-                    <a href="#">Equipe</a>
+                    <a href="#teams">Equipe</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#contact">Contato</a>
+                </li>
+                <li>
+                    <a href="acess/view/index.html">Entrar</a>
                 </li>
             </ul>
             <div class="menu-btn">
@@ -43,15 +50,15 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Ola, meu nome é</div>
-                <div class="text-2">Sandro Souza</div>
-                <div class="text-3">eu sou <span>Desenvolvedor</span></div>
-                <a href="#">Contratar-me</a>
+                <div class="text-1">Seja bem vindo a</div>
+                <div class="text-2">KG Agenda</div>
+                <div class="text-3">Faça seu <span class="typing"></span></div>
+                <a href="#">Agendar</a>
             </div>
         </div>
     </section>
 
-    <!--home.inicio-->
+    <!--sessão.sobre-->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">Sobre</h2>
@@ -59,15 +66,225 @@
                 <div class="column left">
                     <img src="img/img-1.jpg" alt="">
                 </div>
+                <div class="column right">
+                    <div class="text">Sou Sandro e sou <span class="typing-2"></span></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa eveniet voluptatem modi minus! Odit, sed aspernatur? Ipsam, laudantium, expedita blanditiis magnam repellendus facilis est quidem, eveniet dolores adipisci harum
+                        labore. Reiciendis exercitationem error nostrum unde totam, provident autem iure debitis odio aut sit illum pariatur dolorem dolor sed consectetur quibusdam repellat nobis, odit quis dignissimos nesciunt aperiam voluptatem. Soluta!
+                    </p>
+                    <a href="#">Dowload CV </a>
+                </div>
             </div>
         </div>
     </section>
 
+    <!--sessão.serviços-->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Serviços</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="brush-outline"></ion-icon>
+                        <div class="text">Web Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque, accusantium quo consequuntur quod dolor.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="trending-up-outline"></ion-icon>
+                        <div class="text">Anúncios</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque, accusantium quo consequuntur quod dolor.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="code-outline"></ion-icon>
+                        <div class="text">Design de apps</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque, accusantium quo consequuntur quod dolor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão.especialidade-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Especialidades</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Minhas habilidades criatvas e experiencias</div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure inventore ducimus enim maiores consectetur reprehenderit facere id labore quisquam voluptate natus at animi porro omnis atque eveniet repudiandae, beatae soluta laboriosam
+                        doloremque voluptatem, nulla non exercitationem. Sint ipsam corporis quidem culpa dolorum quisquam, reiciendis impedit placeat atque fugiat hic aperiam commodi distinctio debitis autem nihil sed aliquid sit explicabo provident?</p>
+                    <a href="#">Mais informações</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>93%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>87%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>47%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>42%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão.equipe-->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Minha equipe</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="img/img-1.jpg" alt="">
+                        <div class="text">Gustavo</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus commodi quia a voluptate ad explicabo.
+                        </P>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img/img-2.jpg" alt="">
+                        <div class="text">fernando</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus commodi quia a voluptate ad explicabo.
+                        </P>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img/img-3.jpg" alt="">
+                        <div class="text">mariana</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus commodi quia a voluptate ad explicabo.
+                        </P>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img/img-4.jpg" alt="">
+                        <div class="text">Fabiana</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus commodi quia a voluptate ad explicabo.
+                        </P>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img/img-5.jpg" alt="">
+                        <div class="text">Sueli</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus commodi quia a voluptate ad explicabo.
+                        </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão.contato-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Fale Conosco</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi possimus molestiae, corporis illo, sequi, optio quaerat labore illum quis ipsam doloremque nisi magni. Quisquam reiciendis repellat ducimus quas! Distinctio, nemo veniam.
+                        Iste quas facilis aperiam dolores similique, aliquam ex nesciunt suscipit aliquid, nam dolor vel fugit nulla ipsa incidunt rerum!
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Nome</div>
+                                <div class="sub-title">Sandro Souza</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ion-icon name="earth-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Endereço</div>
+                                <div class="sub-title">Lins, SP</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">kgagenda@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Mensagem</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="field">
+                                <input type="text" placeholder="Sobrenome" required>
+                            </div>
+                            <div class="field textarea">
+                                <textarea cols="30" rows="10" placeholder="Escrever..." required></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--sessão footer-->
+    <footer>
+        <span>Criado por <a href="#">Front</a> | Todos os direitos reservados 2022</span>
+    </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
 </body>
 
 </html>
