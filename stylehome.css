@@ -215,7 +215,7 @@
     /*sessão sobre */
     
     .about .title::after {
-        content: "Quem sou eu";
+        content: "Sobre nós";
     }
     
     .about .about-content .left {
