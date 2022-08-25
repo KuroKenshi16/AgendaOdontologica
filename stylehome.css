@@ -322,7 +322,7 @@
     /*sessão especialidades */
     
     .skills .title::after {
-        content: "Que faço";
+        content: "Da equipe";
     }
     
     .skills .skills-content .column {
