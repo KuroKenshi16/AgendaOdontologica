@@ -56,16 +56,24 @@ $(document).ready(function() {
 
 function iniciaModal(modalID) {
     const modal = document.getElementById(modalID);
+    if(modal) {
     modal.classList.add('mostrar');
     modal.addEventListener('click', (e) => {
         if(e.target.id == modalID || e.target.className == 'fechar') {
             modal.classList.remove('mostrar');
             e.preventDefault();
         }
-    })
+    });
+ }
 }
 
-    const select = document.querySelector('.card-doutor')
-    select.addEventListener('click', function() {
-        iniciaModal('modal-info');
-    });
+    const select1 = document.getElementById('card-doutor1')
+    const select2 = document.getElementById('card-doutor2')
+    const select3 = document.getElementById('card-doutor3')
+    const select4 = document.getElementById('card-doutor4')
+    const select5 = document.getElementById('card-doutor5')
+    select1.addEventListener('click', () => iniciaModal('modal-info'));
+    select2.addEventListener('click', () => iniciaModal('modal-info'));
+    select3.addEventListener('click', () => iniciaModal('modal-info'));
+    select4.addEventListener('click', () => iniciaModal('modal-info'));
+    select5.addEventListener('click', () => iniciaModal('modal-info'));
