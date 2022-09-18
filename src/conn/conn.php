@@ -1,7 +1,7 @@
 <?php 
 
 // Carregar as credenciais do banco de dados
-$hostname = "br-asc-web806.main-hosting.eu";
+$hostname = "localhost";
 $database = "u246662187_KgAgenda";
 $user = "u246662187_AgendaTCC";
 $password = "Agenda_IKMS@23";
