@@ -1,10 +1,16 @@
 <link rel="stylesheet" href="/src/definir-horarios/view/style-horario.css">
+<link rel="stylesheet" href="/libs/fontawesome/css/all.css">
+
 <div class="container">
-    <div>
-        <p class="referencia">Selecione o dia da semana para editar os horarios de atendimento</p>
+    <div class="salvar">
+        
     </div>
-    
-    <div class="content">
+    <div class="referencia">
+        <p>Selecione o dia da semana e edite seus horarios de atendimento</p>
+    </div>
+
+    <!--Grid dias da semana-->
+    <div class="content-dia">
         <div class="semana-grid">
             <div class="dia-1 text alter">Segunda-Feira
                 <p>Dia XX/XX</p>
@@ -23,4 +29,94 @@
             </div>
         </div>
     </div>
+
+    <div class="text-horarioQTD">
+        <p>Defina a quantidade de horários disponivéis para Segunda-Feira:</p>
+                <input class="field" type="number" placeholder="Qtd" id="qtd" required>
+    </div>
+    <!--Fim Grid dias da semana-->
+
+    <!--Edit qtd & horarios-->
+    <div class="content-horario">
+        <div class="text-horarioATD">
+            <p>Quais os horários de atendimento na Segunda-Feira:</p>
+        </div>
+                    <div class="horarios-grid">
+                        
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp  
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+
+                        <div class="panel">&nbsp Das &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                             &nbsp as &nbsp 
+                            <input class="horario" type="time" min="09:00" max="18:00" required>
+                        </div>
+                    </div>
+    </div>
+    <!--Fim edit qtd & horarios-->
 </div>
+
+<script src="/src/definir-horarios/control/definir-horarios.js"></script>
