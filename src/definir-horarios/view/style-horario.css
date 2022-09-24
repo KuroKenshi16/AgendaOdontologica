@@ -1,3 +1,4 @@
+/*Início System*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
 * {
     margin: 0;
@@ -9,11 +10,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/*Fim System*/
+
+/*Início Style*/
 .container {
     display: flex;
     justify-content: center;
     height: 130vh;
-    width: 98vw;
+    width: 100%;
     background-color: #fff;
     position: relative
 }
@@ -281,3 +294,8 @@ body {
     opacity: 1;
     transition: all 0.3s ease;
 }
+/*Final Style*/
+
+/*Responsivo*/
+
+/*Fim Responsivo*/
