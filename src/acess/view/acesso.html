@@ -10,35 +10,34 @@
     <link rel="stylesheet" href="/libs/fontawesome/css/all.css">
     <link rel="shortcut icon" href="/img/Logo kg .png" type="image/x-icon">
 </head>
+
 <body>
     <div class="container">
         <!--First content-->
         <div class="content first-content">
-             <div class="first-column">
+            <div class="first-column">
                 <h2 class="title title-primary">Bem vindo devolta!</h2>
                 <p class="description description-primary">Se mantenha conectado</p>
                 <p class="description description-primary">Por favor acesse com suas informações pessoais</p>
                 <button id="signin" class="btn btn-primary">Entrar</button>
-             </div>
-             <div class="second-column">
+            </div>
+            <div class="second-column">
                 <h2 class="title title-second">Crie uma conta</h2>
-                <form class="form">
-                    <label class="label-input" for="">
-                        <i class="fa-solid fa-user icon-modify"></i>
-                        <input type="text" placeholder="Nome">
-                    </label>
+                <form class="form" action="/src/acess/model/salvar-credencial.php" method="POST">
                     <label class="label-input" for="">
                         <i class="fa-solid fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="email" id="email" placeholder="Email">
                     </label>
                     <label class="label-input" for=""> 
                         <i class="fa-solid fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Senha">
+                        <input type="password" name="password" id="password" placeholder="Senha">
                     </label>
-                    <button class="btn btn-second">Cadastrar</button>
+                    <button class="btn btn-second" type="submit" name="submit" id="submit">Cadastrar</button>
                 </form>
-             </div><!--Second column-->
-        </div><!--End First content--> 
+            </div>
+            <!--Second column-->
+        </div>
+        <!--End First content-->
 
         <!--Second content-->
 
@@ -49,27 +48,29 @@
                 <p class="description description-primary">Inicie sua jornada conosco</p>
                 <button id="signup" class="btn btn-primary">Entrar</button>
             </div>
-             <div class="second-column">
+            <div class="second-column">
                 <h2 class="title title-second">Acesse sua conta</h2>
                 <p class="description description-second">Ou use seu email para acessar:</p>
-                <form class="form">
+                <form class="form" action="../model/login.php" method="POST">
                     <label class="label-input" for="">
                         <i class="fa-solid fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="Email">
                     </label>
 
                     <label class="label-input" for="">
                         <i class="fa-solid fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Senha">
+                        <input type="password" name="password" placeholder="Senha">
                     </label>
 
                     <a class="password" href="#">Esqueceu a senha?</a>
-                    <button class="btn btn-second">Cadastrar</button>
+                    <button class="btn btn-second" type="submit" name="submit">Entrar</button>
                 </form>
-             </div><!--Second column-->
+            </div>
+            <!--Second column-->
         </div>
         <!--End Second content-->
     </div>
     <script src="/src/acess/control/acess.js"></script>
 </body>
+
 </html>
