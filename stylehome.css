@@ -770,7 +770,7 @@
     }
 
     .mostrar .modal {
-        animation: modal .3s;
+        animation: .3s;
     }
 
     .fechar {
