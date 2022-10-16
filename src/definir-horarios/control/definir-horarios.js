@@ -1,9 +1,11 @@
+//Função pega valor digitado no input 
 function mostraHorario() {
     let qtd; 
     $('#qtd').change(function(){
         qtd = $('#qtd').val();
         duplicaElemento(qtd);
 
+        //Não deixa o valor do input ser maior que 12
         if (qtd > 12){
             alert('A quantidade maxima são de 12 horários')
             duplicaElemento(qtd = 12)
@@ -14,6 +16,7 @@ function mostraHorario() {
     });
 };
 
+//Função que replica box de horario
 function duplicaElemento(qtd) {
     $('.horarios-grid').empty();
     for ( var i = 0, l = qtd; i < l; i++)
@@ -26,6 +29,7 @@ function duplicaElemento(qtd) {
             )};
 };
 
+//Função que muda o dia selecionado alterando tambem os textos
 function mudaDia(){
     $('.alter').each(function(key,value){
         
@@ -39,12 +43,15 @@ function mudaDia(){
             let qtd;
             qtd = $('#qtd');
             changeDay = $(this).attr('data-nome');
+
+            //Habilita input de qtd apenas quando um dia for selecionado 
             $('.changeDay').text(changeDay)
             qtd.removeAttr('disabled')
         })
     })
 };
 
+//Função que retorna o dia da semana e o mes em questao 
 // function mostraSemana(){
 //     let mes;
 //     mes = $('#mes').val();
@@ -60,6 +67,7 @@ function mudaDia(){
 //     return console.log(m.isoWeek() - moment(m).startOf('month').isoWeek() + 1)
 //   };
 
+//Le documento e habilita funcoes 
 $(document).ready(function(){
     mostraHorario()
     // mostraSemana()

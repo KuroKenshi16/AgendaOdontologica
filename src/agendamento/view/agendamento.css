@@ -1,0 +1,88 @@
+/*Início System*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .max-width {
+        max-width: 1300px;
+        padding: 0 80px;
+        margin: auto;
+    }
+
+    /* section {
+        padding: 100px 0;
+    } */
+
+    .container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        height: 130vh;
+        width: 100%;
+        background-color: #fff;
+        position: relative
+    }    
+/*Início System*/
+
+    /*Style Doutores*/
+    .doutores {
+        width: 100vw;
+        height: 600px;
+        background: #059481;
+    }
+
+     .title-dout {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        color: #fff;
+        position: relative;
+    } 
+    /*Fim Style Doutores*/
+
+    /*Style Horarios-Doutor*/
+    .horarios-doutor { 
+        width: 100vw;
+        height: 600px;
+        background: #fff;
+    }
+
+    .title-dia {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        color: #111;
+        position: relative;
+    } 
+    
+    /*Fim Style Horarios-Doutor*/
+
+    /*Style Dados-Pessoais*/
+    .dados-pessoais {
+        width: 100vw;
+        height: 600px;
+        background: #059481;
+    }
+
+   .title-dados {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        color: #fff;
+        position: relative;
+    } 
+    /*Fim Style Dados-Pessoais*/
