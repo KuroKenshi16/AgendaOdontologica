@@ -34,13 +34,13 @@
             <div class="logo"><a href="#">KG<span>Agenda</span></a></div>
             <ul class="menu">
                 <li>
-                    <a href="#home">Inicio</a>
+                    <a href="#home">Início</a>
                 </li>
                 <li>
                     <a href="#about">Sobre</a>
                 </li>
                 <li>
-                    <a href="#services">Serviços</a>
+                    <a href="#services">Tratamentos</a>
                 </li>
                 <li>
                     <a href="#skills">Especialidades</a>
@@ -49,13 +49,7 @@
                     <a href="#teams">Equipe</a>
                 </li>
                 <li>
-                    <a href="#contact">Contato</a>
-                </li>
-                <li>
                     <a class="nav-link" href="src/definir-horarios/view/definir-horarios.html">Definir horários</a>
-                </li>
-                <li>
-                    <a href="/src/acess/view/acesso.html">Entrar</a>
                 </li>
                 <li>
                     <a href="sair.php">Sair</a>
@@ -101,7 +95,7 @@
     <!--sessão.serviços-->
     <section class="services" id="services">
         <div class="max-width ">
-            <h2 class="title ">Serviços</h2>
+            <h2 class="title ">Tratamentos</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
@@ -139,7 +133,7 @@
                     <div class="text">Nossas Especialidades</div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure inventore ducimus enim maiores consectetur reprehenderit facere id labore quisquam voluptate natus at animi porro omnis atque eveniet repudiandae, beatae soluta laboriosam
                         doloremque voluptatem, nulla non exercitationem. Sint ipsam corporis quidem culpa dolorum quisquam, reiciendis impedit placeat atque fugiat hic aperiam commodi distinctio debitis autem nihil sed aliquid sit explicabo provident?</p>
-                    <a href="#">Mais informações</a>
+                    <a href="#teams">Mais informações</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -229,9 +223,9 @@
                 </div>
             </div>
         </div>
-    </section>
+  
 
-    <!--sessão.contato-->
+    <!-- sessão.contato
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title ">Contato</h2>
@@ -284,11 +278,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--sessão footer-->
     <footer>
         <span>Criado por <a href="#">IKMS</a> | Todos os direitos reservados 2022</span>
     </footer>
+</section>
 
     <!--Modal para visualizar perfil do doutor-->
     <div id="modal-info" class="modal-container">

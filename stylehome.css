@@ -212,7 +212,7 @@
         align-items: center;
         justify-content: space-between;
     }
-    /*sessão sobre */
+    sessão sobre
     
     .about .title::after {
         content: "Sobre nós";
