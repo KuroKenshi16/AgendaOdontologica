@@ -22,9 +22,9 @@ function duplicaElemento(qtd) {
     for ( var i = 0, l = qtd; i < l; i++)
             {$('.horarios-grid').append(
                 `<div class="panel">&nbsp Das &nbsp 
-                    <input class="horario" type="time" min="09:00" max="18:00" required>
+                    <input class="horario" type="time" min="06:00" max="23:00" required>
                     &nbsp as &nbsp 
-                    <input class="horario" type="time" min="09:00" max="18:00" required>
+                    <input class="horario" type="time" min="06:00" max="23:00" required>
                  </div>`
             )};
 };
