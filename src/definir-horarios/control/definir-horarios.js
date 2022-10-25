@@ -52,20 +52,20 @@ function mudaDia(){
 };
 
 //Função que retorna o dia da semana e o mes em questao 
-// function mostraSemana(){
-//     let mes;
-//     mes = $('#mes').val();
+//  function mostraSemana(){
+//      let mes;
+//      mes = $('#mes').val();
 
-//     weekOfMonth(moment("01.07.2022"))
-//     // console.log(moment().format('w'));
-// };
+//      weekOfMonth(moment("01.07.2022"))
+//       console.log(moment().format('w'));
+//  };
 
-// function weekOfMonth(m) {
-//     // console.log(m)
-//     // let teste;
+//  function weekOfMonth(m) {
+//       console.log(m)
+//       let teste;
 
 //     return console.log(m.isoWeek() - moment(m).startOf('month').isoWeek() + 1)
-//   };
+//    };
 
 //Le documento e habilita funcoes 
 $(document).ready(function(){

@@ -12,61 +12,35 @@
     }
 
     .container {
-        display: block;
         align-items: center;
         justify-content: center;
-        height: 130vh;
+        height: 100%;
         width: 100%;
         background-color: #fff;
-        position: relative
+        position: relative;
     }    
-/*Início System*/
 
-    /*Style Doutores*/
-    .doutores {
-        width: 100%;
-        height: 600px;
-        background: #059481;
+    .boxImg {
+        width: 50%;
+        height: 100%;
+        background: black;
+        float: left;
+        align-items: center;
     }
 
-     .title-dout {
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 500;
-        margin-bottom: 60px;
-        padding-bottom: 20px;
-        color: #fff;
-        position: relative;
-    } 
-    /*Fim Style Doutores*/
-
-    /*Style Horarios-Doutor*/
-    .horarios-doutor { 
-        width: 100%;
-        height: 600px;
-        background: #fff;
+    .img {
+        position: absolute;
+        top: 70px; 
+        left: 70px;
     }
-
-    .title-dia {
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 500;
-        padding-bottom: 20px;
-        color: #111;
-        position: relative;
-    } 
-    
-    /*Fim Style Horarios-Doutor*/
 
     /*Style Dados-Pessoais*/
     .dados-pessoais {
-        width: 100%;
-        height: 600px;
-        background: #111;
-        display: flex;
-        justify-items: center;
+        width: 50%;
+        height: 100%;
+        background: #fff;
+        display: relative;
+        float: right;
     }
 
    .title-dados {
@@ -74,14 +48,15 @@
         text-align: center;
         font-size: 40px;
         font-weight: 500;
-        color: #fff;
+        color: #059481;
         position: relative;
+        margin-top: 30px;
     } 
         
     .campo {
         width: 70px;
         height: 35px;
-        border: 1px solid #fff;
+        border: 1px solid #059481;
         background: none;
         border-radius: 6px;
         outline: none;
@@ -89,39 +64,63 @@
         font-size: 17px;
         font-family: 'Roboto', sans-serif;
         cursor: pointer;
-        color: #fff;
+        color: #059481;
     }
 
     .nome {
-        width: 500px;
+        width: 600px;
+    }
+
+    .alinha {
+        margin-left: 40px;
+        margin-top: 25px;
     }
 
     .cpf {
         width: 160px;
     }
 
+    .ladoCPF {
+       float: right;
+       margin-right: 40px;
+       margin-top: -35px;
+    }
+
+    .ladoCel {
+        float: right;
+        margin-right: 40px;
+        margin-top: 25px;
+    }
+ 
+
     .telefone {
         width: 160px;
     }
 
+    .ladoTel {
+        float: right;
+        margin-right: 40px;
+        margin-top: 10px;
+    } 
+
     .celular {
-        width: 160px;
+        width: 200px;
     }
 
     .rua {
-        width: 400px;
+        width: 600px;
     }
 
     .cep {
-        width: 120px;
+        width: 170px;
     }
 
     .cidade {
-        width: 200px;
+        width: 600px;
     }
     
     .bairro {
-        width: 400px;
+        width: 600px;
     }
 
     .dtNasc {
@@ -137,37 +136,40 @@
     }
 
     .campo::placeholder {
-        color: #fff;
-        font-size: 18px;
+        color: #059481;
+        font-size: 15px;
     }
 
     .campo:active , .campo:focus {
-        border: 2px solid #fff;
-        color:#fff;
+        border: 2px solid #111;
+        color:#111;
         transition: .4s;
     }
 
     .text-campo {
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
-        color: #fff;
+        color: #059481;
     }
 
-    .agendar {
+    .atualizar {
         width: 130px;
         height: 40px;
         font-family: 'Roboto', sans-serif;
         font-size: 15px;
-        background-color: #fff;
+        background-color: #059481;
         border-radius: 6px;
-        border: 2px solid #fff;
+        border: 2px solid #059481;
         cursor: pointer;
+        color: #fff;
+        margin-left: 270px;
+        margin-top: 30px;
     }
 
-    .agendar:hover {
-        background: #111;
-        color: #fff;
-        border: 3px solid #fff;
+    .atualizar:hover {
+        background: #fff;
+        color: #059481;
+        border: 3px solid #059481;
         transform: scale(1.05);
     }
     /*Fim Style Dados-Pessoais*/
