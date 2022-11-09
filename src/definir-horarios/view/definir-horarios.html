@@ -9,59 +9,84 @@
 
 <body>
 <div class="container">
-        <button class="salvar">
-            <i class="fa-solid fa-floppy-disk"></i>
-        </button>
+    <div class="sets">
+        <h2 class="title-agenda">Definir Agenda</h2>
 
-    <a class="link-color" href="../../../index.html">
-        <div class="voltar">
-            <i class="fa-solid fa-arrow-left"></i>
+        <p class="TxtMes">Mês</p>
+            <select name="meses" class="meses">
+                <option class="mes" value="mes1">Janeiro</option>
+                <option class="mes" value="mes2">Fevereiro</option>
+                <option class="mes" value="mes3">Março</option>
+                <option class="mes" value="mes4">Abril</option>
+                <option class="mes" value="mes5">Maio</option>
+                <option class="mes" value="mes6">Junho</option>
+                <option class="mes" value="mes7">Julho</option>
+                <option class="mes" value="mes8">Agosto</option>
+                <option class="mes" value="mes9">Setembro</option>
+                <option class="mes" value="mes10">Outubro</option>
+                <option class="mes" value="mes11">Novembro</option>
+                <option class="mes" value="mes12">Dezembro</option>
+            </select>
+
+        <p class="semana">Semana</p>
+            <select name="semanas" class="semanas">
+                <option class="sem" value="semana1">Semana 1</option>
+                <option class="sem" value="semana2">Semana 2</option>
+                <option class="sem" value="semana3">Semana 3</option>
+                <option class="sem" value="semana4">Semana 4</option>
+            </select>
+
+            <p class="qtd">Qtd Dias</p>
+            <select name="dia" class="dia">
+                <option class="opt" value="5">5</option>
+                <option class="opt" value="6">6</option>
+            </select>
+    </div>
+
+    <div class="secao-dia">
+
+        <div class="space">
+            <div class="box">
+
+            </div>
+            
+            <div class="secao-details">
+
+                <div class="position-ent ent">
+                    <p class="info">Entrada</p>
+                        <input class="ent" type="time" min="06:00" max="23:00" required>
+                </div>
+                
+                <div class="position-sai sai">
+                    <p class="info">Saida</p>
+                        <input class="sai" type="time" min="06:00" max="23:00" required>
+                </div>
+                
+                <div class="position-int int">
+                    <p class="info">Intervalo</p>
+                        <input class="int" type="time" min="06:00" max="23:00" required>
+                </div>
+
+                <div class="position-ret ret">
+                    <p class="info">Retorno</p>
+                        <input class="ret" type="time" min="06:00" max="23:00" required>
+                </div>
+
+                <div class="position-pac pac">
+                    <p class="info">Pacientes</p>
+                        <input class="pac" type="number" required>
+                </div>
+
+                <div class="check">
+                    <button class="confirmar">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </div>
+            </div>
         </div>
-    </a>
-   
-    <div class="referencia">
-        <p>Selecione o dia da semana e edite seus horarios de atendimento</p>
     </div>
+    
 
-    <!--Grid dias da semana-->
-    <div class="content-dia">
-        <div class="semana-grid">
-            <div class="dia-1 text alter" id="segunda" data-nome="Segunda-Feira:" >Segunda-Feira
-                <p>Dia XX/<span id ="mes"> </span></p>
-            </div>
-            <div class="dia-2 text alter" id="terca" data-nome="Terça-Feira:">Terça-Feira
-                <p>Dia XX/<span id ="mes"></span></p>
-            </div>
-            <div class="dia-3 text alter" id="quarta" data-nome="Quarta-Feira:">Quarta-Feira
-                <p>Dia XX/<span id ="mes"></span></p>
-            </div>
-            <div class="dia-4 text alter" id="quinta" data-nome="Quinta-Feira:">Quinta-Feira
-                <p>Dia XX/<span id ="mes"></span></p>
-            </div>
-            <div class="dia-5 text alter" id="sexta" data-nome="Sexta-Feira:">Sexta-Feira
-                <p>Dia XX/<span id ="mes"></span></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="text-horarioQTD">
-        <p>Defina a quantidade de horários disponivéis para <span class ="changeDay"></span></p>
-                <input class="field" type="number" placeholder="Qtd" id="qtd" disabled required>
-    </div>
-    <!--Fim Grid dias da semana-->
-
-    <!--Edit qtd & horarios-->
-    <div class="content-horario">
-        <div class="text-horarioATD">
-            <p>Quais os horários de atendimento na <span class ="changeDay"></span></p>
-        </div>
-                    <div class="horarios-grid">
-                        
-        
-
-                    </div>
-    </div>
-    <!--Fim edit qtd & horarios-->
 </div>
 </body>
 
