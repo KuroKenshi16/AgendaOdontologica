@@ -103,24 +103,24 @@
                 <div class="card">
                     <div class="box">
                         <i class="fa-solid fa-tooth"></i>
-                        <div class="text">Implantes</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque, accusantium quo consequuntur quod dolor.</p>
+                        <div class="text">Implante</div>
+                        <p>Implantes dentários são suportes ou estruturas de metal posicionadas cirurgicamente no osso maxilar abaixo da gengiva para substituir as raízes dentárias.</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="box">
                         <i class="fa-solid fa-teeth"></i>
-                        <div class="text">Aparelhos</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque, accusantium quo consequuntur quod dolor.</p>
+                        <div class="text">Aparelho</div>
+                        <p>O aparelho dentário, é um dispositivo que estimula as movimentações dos dentes. O objetivo dessa movimentação é corrigir a posição dos dentes na arcada dentária, sempre que uma pessoa desenvolve má formação nas estruturas bucais e/ou faciais.</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="box">
                         <i class="fa-solid fa-tooth"></i>
-                        <div class="text">Limpezas</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque, accusantium quo consequuntur quod dolor.</p>
+                        <div class="text">Limpeza</div>
+                        <p>A limpeza de dente profissional também é conhecida no mundo afora como raspagem e aplanamento radicular. A raspagem envolve a remoção de tártaro e placa bacteriana da superfície dos dentes e da área da bolsa entre os dentes e gengivas. </p>
                     </div>
                 </div>
             </div>
@@ -134,8 +134,7 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">Nossas Especialidades</div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure inventore ducimus enim maiores consectetur reprehenderit facere id labore quisquam voluptate natus at animi porro omnis atque eveniet repudiandae, beatae soluta laboriosam
-                        doloremque voluptatem, nulla non exercitationem. Sint ipsam corporis quidem culpa dolorum quisquam, reiciendis impedit placeat atque fugiat hic aperiam commodi distinctio debitis autem nihil sed aliquid sit explicabo provident?</p>
+                    <p>Atualmente nossa clinica conta com cinco profissionais que atendem em diversas áreas da Odontologia, desde cirurgias no geral, limpezas e clareamento dental. É possível ver mais de nossas especialidades logo abaixo.</p>
                     <a href="#teams">Mais informações</a>
                 </div>
                 <div class="column right">
@@ -149,28 +148,28 @@
                     <div class="bars">
                         <div class="info">
                             <span>Implantodontia</span>
-                            <span>85%</span>
+                            <span>76%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Clareamento dentário</span>
-                            <span>87%</span>
+                            <span>62%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Dentística</span>
-                            <span>47%</span>
+                            <span>43%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>Prótese dentária</span>
-                            <span>42%</span>
+                            <span>29%</span>
                         </div>
                         <div class="line mysql"></div>
                     </div>

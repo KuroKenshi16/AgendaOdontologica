@@ -27,7 +27,7 @@
 
                     <div class="alinha ladoCPF">
                         <label class="text-campo" for="">Seu CPF:&nbsp </label>
-                        <input class="campo cpf" type="text" placeholder="CPF" required>
+                        <input class="campo cpf" id="cpf" type="text" placeholder="CPF" required>
                     </div>
 
                     <!-- <div class="alinha ladoTel">
@@ -37,31 +37,31 @@
 
                     <div class="alinha ladoCel">
                         <label class="text-campo" for="">Celular:&nbsp </label>
-                        <input class="campo celular" type="text" placeholder="Celular" required>
+                        <input class="campo celular" id="cel" type="text" placeholder="Celular" required>
                     </div>
 
                     <div class="alinha">
                         <label class="text-campo" for="">CEP:&nbsp </label>
-                        <input class="campo cep" type="text" placeholder="CEP" required>
+                        <input class="campo cep" id="cep" type="text" placeholder="CEP" required>
                     </div>
 
                     <div class="alinha ladoCid">
                         <label class="text-campo" for="">Cidade:&nbsp </label>
-                        <input class="campo cidade" type="text" placeholder="Cidade" required>
+                        <input class="campo cidade" id="cidade" type="text" placeholder="Cidade" disabled required>
                     </div>
 
                     <div class="alinha">
                         <label class="text-campo" for="">Logradouro:&nbsp </label>
-                        <input class="campo rua" type="text" placeholder="Rua" required>
+                        <input class="campo rua" id="logradouro" type="text" placeholder="Rua" disabled required>
                     </div>
 
                     <div class="alinha">
                         <label class="text-campo" for="">Bairro:&nbsp </label>
-                        <input class="campo bairro" type="text" placeholder="Bairro" required>
+                        <input class="campo bairro" id="bairro" type="text" placeholder="Bairro" disabled required>
                     </div>
 
-                    <a class="nav-link" href="../../../index.html">
-                        <button class="atualizar alinha">
+                    <a class="nav-link" href="../../../index.php">
+                        <button class="atualizar alinha" id="btn">
                             Finalizar
                         </button>
                     </a>
@@ -70,3 +70,6 @@
 </body>
 
 <script src="../../../js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="../../../js/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="../../../js/jquery.maskedinput-1.1.4.pack.js"></script>
+<script src="../controller/cadUser.js"></script>
