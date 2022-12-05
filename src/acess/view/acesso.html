@@ -23,7 +23,7 @@
             </div>
             <div class="second-column">
                 <h2 class="title title-second">Crie uma conta</h2>
-                <form class="form" action="/src/acess/model/salvar-credencial.php" method="POST">
+                <form class="form-credencial" method="POST">
                     <label class="label-input" for="">
                         <i class="fa-solid fa-envelope icon-modify"></i>
                         <input type="email" name="email" id="email" placeholder="Email">
@@ -32,7 +32,7 @@
                         <i class="fa-solid fa-lock icon-modify"></i>
                         <input type="password" name="password" id="password" placeholder="Senha">
                     </label>
-                    <button class="btn btn-second" type="submit" name="submit" id="submit">Cadastrar</button>
+                    <button class="btn btn-second" type="submit" name="submit" id="cadastrar">Cadastrar</button>
                 </form>
             </div>
             <!--Second column-->
@@ -50,7 +50,7 @@
             </div>
             <div class="second-column">
                 <h2 class="title title-second">Acesse sua conta</h2>
-                <form class="form" action="../model/login.php" method="POST">
+                <form class="form" method="POST">
                     <label class="label-input" for="">
                         <i class="fa-solid fa-envelope icon-modify"></i>
                         <input type="email" name="email" placeholder="Email">
@@ -68,6 +68,7 @@
         <!--End Second content-->
     </div>
     <script src="/src/acess/control/acess.js"></script>
+    <script src="/src/acess/control/save-acess.js"></script>
 </body>
 
 </html>

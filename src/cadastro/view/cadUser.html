@@ -10,66 +10,60 @@
 <body>
     <div class="container">
         <div class="boxImg">
-          <img src="../../../img/Logo-escrita.png" class="img">
+            <img src="../../../img/Logo-escrita.png" class="img">
         </div>
         <!--Campos para realizar cadastro para realizar agendamento-->
+        <form class="form" action="/src/cadastro/model/save-user.php" method="POST">
             <div class="dados-pessoais">
                 <h2 class="title-dados">Dados Pessoais</h2>
-                    <div class="alinha">
-                        <label class="text-campo" for="">Nome completo:&nbsp </label>
-                        <input class="campo nome" type="text" placeholder="Nome Completo" required>
-                    </div>
+                <div class="alinha">
+                    <label class="text-campo" for="">Nome completo:&nbsp </label>
+                    <input class="campo nome" name="NOME" id="nome" type="text" placeholder="Nome Completo" required>
+                </div>
 
-                    <div class="alinha">
-                        <label class="text-campo" for="">Data de nascimento:&nbsp </label>
-                        <input class="campo dtNasc" type="date" placeholder="Data de nascimento" required>
-                    </div>
+                <div class="alinha">
+                    <label class="text-campo" for="">Data de nascimento:&nbsp </label>
+                    <input class="campo dtNasc" name="DATANSC" id="datansc" type="date" placeholder="Data de nascimento" required>
+                </div>
 
-                    <div class="alinha ladoCPF">
-                        <label class="text-campo" for="">Seu CPF:&nbsp </label>
-                        <input class="campo cpf" id="cpf" type="text" placeholder="CPF" required>
-                    </div>
+                <div class="alinha ladoCPF">
+                    <label class="text-campo" for="">Seu CPF:&nbsp </label>
+                    <input class="campo cpf" name="CPF" id="cpf" type="text" placeholder="CPF" required>
+                </div>
 
-                    <!-- <div class="alinha ladoTel">
-                        <label class="text-campo" for="">Telefone:&nbsp </label>
-                        <input class="campo telefone" type="text" placeholder="Telefone" required>
-                    </div> -->
+                <div class="alinha ladoCel">
+                    <label class="text-campo" for="">Celular:&nbsp </label>
+                    <input class="campo celular" name="CEL" id="cel" type="text" placeholder="Celular" required>
+                </div>
 
-                    <div class="alinha ladoCel">
-                        <label class="text-campo" for="">Celular:&nbsp </label>
-                        <input class="campo celular" id="cel" type="text" placeholder="Celular" required>
-                    </div>
+                <div class="alinha">
+                    <label class="text-campo" for="">CEP:&nbsp </label>
+                    <input class="campo cep" name="CEP" id="cep" type="text" placeholder="CEP" required>
+                </div>
 
-                    <div class="alinha">
-                        <label class="text-campo" for="">CEP:&nbsp </label>
-                        <input class="campo cep" id="cep" type="text" placeholder="CEP" required>
-                    </div>
+                <div class="alinha ladoCid">
+                    <label class="text-campo" for="">Cidade:&nbsp </label>
+                    <input class="campo cidade" name="CIDADE" id="cidade" type="text" placeholder="Cidade" required>
+                </div>
 
-                    <div class="alinha ladoCid">
-                        <label class="text-campo" for="">Cidade:&nbsp </label>
-                        <input class="campo cidade" id="cidade" type="text" placeholder="Cidade" disabled required>
-                    </div>
+                <div class="alinha">
+                    <label class="text-campo" for="">Logradouro:&nbsp </label>
+                    <input class="campo rua" name="LOGRADOURO" id="logradouro" type="text" placeholder="Rua" required>
+                </div>
 
-                    <div class="alinha">
-                        <label class="text-campo" for="">Logradouro:&nbsp </label>
-                        <input class="campo rua" id="logradouro" type="text" placeholder="Rua" disabled required>
-                    </div>
+                <div class="alinha">
+                    <label class="text-campo" for="">Bairro:&nbsp </label>
+                    <input class="campo bairro" name="BAIRRO" id="bairro" type="text" placeholder="Bairro" required>
+                </div>
 
-                    <div class="alinha">
-                        <label class="text-campo" for="">Bairro:&nbsp </label>
-                        <input class="campo bairro" id="bairro" type="text" placeholder="Bairro" disabled required>
-                    </div>
-
-                    <a class="nav-link" href="../../../index.php">
-                        <button class="atualizar alinha" id="btn">
-                            Finalizar
-                        </button>
-                    </a>
+                <button class="atualizar alinha" class="type=" name="submit " id="submit ">Finalizar</button>
             </div>
+        </form>
     </div>
 </body>
 
-<script src="../../../js/jquery-3.6.0.js"></script>
-<script type="text/javascript" src="../../../js/jquery-1.2.6.pack.js"></script>
-<script type="text/javascript" src="../../../js/jquery.maskedinput-1.1.4.pack.js"></script>
-<script src="../controller/cadUser.js"></script>
+<script src="../../../js/jquery-3.6.0.js "></script>
+<script type="text/javascript " src="../../../js/jquery-1.2.6.pack.js "></script>
+<script type="text/javascript " src="../../../js/jquery.maskedinput-1.1.4.pack.js "></script>
+<script src="../controller/cadUser.js "></script>
+<!-- <script src="../controller/save.user.js "></script> -->
