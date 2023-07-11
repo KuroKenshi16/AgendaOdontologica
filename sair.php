@@ -2,5 +2,5 @@
     session_start();
     unset($_SESSION['email']);
     unset($_SESSION['password']);
-    header("Location: src/acess/model/login.php");
+    header("Location: src/acess/model/acesso.html");
 ?>
